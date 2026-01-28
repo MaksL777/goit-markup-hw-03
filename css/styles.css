@@ -56,7 +56,6 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .nav-header {
@@ -65,6 +64,8 @@ a {
 }
 
 .header-logo {
+  display: block;
+  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -101,6 +102,8 @@ a {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-link {
@@ -185,9 +188,7 @@ a {
 }
 
 .feature-items {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  margin-bottom: 8px;
 }
 
 .feature-section .feature-items .feature-title {
@@ -342,6 +343,7 @@ a {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 
 
 
