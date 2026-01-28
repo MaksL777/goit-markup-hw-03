@@ -192,7 +192,7 @@ a {
 }
 
 .feature-items {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-section .feature-items .feature-title {
@@ -347,6 +347,7 @@ a {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 
 
 
