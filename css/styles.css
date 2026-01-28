@@ -189,11 +189,10 @@ a {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  width calc((100% - 3 * 24px) / 4);
 }
 
 .feature-items {
-  margin-bottom: 8px;
+  width calc((100% - 3 * 24px) / 4);
 }
 
 .feature-section .feature-items .feature-title {
@@ -348,6 +347,7 @@ a {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 
 
 
