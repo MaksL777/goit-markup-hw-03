@@ -181,10 +181,15 @@ a {
   padding: 120px 0;
 }
 
+.feature-title {
+  margin-bottom: 8px;
+}
+
 .features-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  width calc((100% - 3 * 24px) / 4);
 }
 
 .feature-items {
@@ -343,6 +348,7 @@ a {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 
 
 
