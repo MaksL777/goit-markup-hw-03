@@ -51,13 +51,13 @@ a {
 /* HEADER*/
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0 24px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 0;
 }
 
 .nav-header {
@@ -162,12 +162,13 @@ a {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-section {
@@ -226,7 +227,7 @@ a {
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width calc((100% - 3 * 24px) / 4)
 }
 
 .team-card-content {
@@ -236,7 +237,7 @@ a {
   padding: 32px 0;
 }
 
-.team-tile-names {
+.team-title-names {
   margin-bottom: 8px;
 }
 
@@ -338,4 +339,5 @@ a {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 
